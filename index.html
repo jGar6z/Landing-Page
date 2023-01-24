@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="assets/logo-header.png">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <!--Header-->
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assets/logo-header.png" alt="logo-header.png">
+                    <div>
+                        <h1 class="title">E-CLASSES</h1>
+                        <h3 class="subtitle">Aulas Virtuais</h3>
+                    </div>
+                </div>
+            </a>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a class="active" href="/">Início</a></li>
+                    <li><a href="/">Academia</a></li>
+                    <li><a href="/">Serviços</a></li>
+                    <li><a href="/">Contato</a></li>
+                    <img class="profile-icon" title="Fazer Login" src="assets/icon-profile.png" alt="icon-profile.png">
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--Main-->
+            <section class="main">
+                <!--Main Text-->
+                <section class="main-text">
+                    <h3 class="subtitle">APRENDA QUALQUER COISA</h4>
+                    <h1 class="title">SEM SAIR DE CASA</h1>
+                    <p class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quis provident odio voluptate sed! Recusandae, veniam consequatur! Quae doloribus delectus excepturi laboriosam nostrum, aliquid dolorem quis eveniet exercitationem! Soluta, tempore.</p>
+                    <div class="buttons">
+                        <a class="btn btn1">Entrar em Contato</a>
+                        <a class="btn btn2">Saiba Mais</a>
+                    </div>
+                </section>
+
+                <!--Main Image-->
+                <section class="main-image">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <div class="slide first">
+                                <img src="assets/IMG-1.png" alt="IMG-1.png">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/IMG-2.png" alt="IMG-2.png">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/IMG-3.png" alt="IMG-3.png">
+                            </div>
+    
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                            </div>
+                        </div>
+    
+                        <div class="manual-navigation">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <!--Social Medias-->
+            <section class="social-medias">
+                <img src="assets/logo-whatsapp.png" alt="logo-whatsapp.png">
+                <img src="assets/logo-facebook.png" alt="logo-facebook.png">
+                <img src="assets/logo-instagram.png" alt="logo-instagram.png">
+                <img src="assets/logo-twitter.png" alt="logo-twitter.png">
+            </section>
+
+            <!--Chat-->
+            <section class="chat">
+                <p>Entrar em contato</p>
+                <img src="assets/icon-chat.svg" alt="icon-chat.svg">
+            </section>
+        </main>
+
+        <!--Script.js Reference-->
+        <script src="script.js"></script>
+    </body>
+</html>
